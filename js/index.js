@@ -32,7 +32,7 @@ const dataObj = {
     address_type: "residential",
   },
   currency: "INR",
-  invoice_id: "invoice_38",
+  invoice_id: "invoice_40",
   referrer_platform: "",
   referrer_platform_identifer: "",
   order_line_items: [
@@ -257,7 +257,7 @@ function paynow(order_id, order_token, payment_mode, user_token) {
     headers: 
       {
         'x-nimbbl-user-token': ''+user_token+'',
-    'Authorization': 'Bearer'+order_token,
+    'Authorization': 'Bearer '+order_token,
     'Content-Type': 'application/json'
       },
       
