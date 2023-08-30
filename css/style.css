@@ -1,0 +1,53 @@
+.Card{
+    margin: 0vw auto;
+    width: 83%;
+    border: 1px solid black;
+}
+.Card-img{
+    margin: 0vw auto;
+    width: 84%;
+    /* border: 1px solid black; */
+    border-radius: 1vw;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.Card-img img{
+    width: 100%;
+}
+.Card-desc{
+    margin: 0vw auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: cursive;
+}
+.Card-button{
+    margin: 0vw auto;
+    width: 42%;
+    padding-bottom: 5vw;
+}
+.Card-button>button{
+    margin: 0vw auto;
+    background-color: limegreen;
+    border: 1px solid yellow;
+    width: 99%;
+    padding: 3vw;
+}
+.paymentMethods{
+    margin: 10vw auto;
+    width: 84%;
+    border: 1px solid black;
+    text-align: center;
+}
+.col3{
+    margin: 0vw auto;
+    width: 97%;
+    display: grid;
+    grid-template-columns: 9.33% 57.33% 33.33%;
+    padding: 1vw;
+    background-color: lightblue;
+}
