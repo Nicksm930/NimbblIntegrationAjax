@@ -32,7 +32,7 @@ const dataObj = {
     address_type: "residential",
   },
   currency: "INR",
-  invoice_id: "invoice_40",
+  invoice_id: "invoice_48",
   referrer_platform: "",
   referrer_platform_identifer: "",
   order_line_items: [
@@ -301,6 +301,8 @@ function paynow(order_id, order_token, payment_mode, user_token) {
       // console.log("UserId:",data.user_id);
       // console.log("OrderId",data.order_id);
       // fetchOrder(data.order_id);
+      // const {redirectUrl  }=data.extra_info.data
+      // window.location.href = redirectUrl;
       console.log(data, "AfterInitiatingPayment");
     },
     failure: function () {
